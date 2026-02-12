@@ -22,7 +22,7 @@ function Item({
           "
           >
             {children}
-            <div className="mt-3 text-blue">{link}</div>
+            <div className="mt-3 text-blue!">{link}</div>
           </div>
         </div>
       </a>
