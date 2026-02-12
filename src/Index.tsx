@@ -32,9 +32,10 @@ function Item({
 
 function Index() {
   const images = [
-    "/public/images/birdhouse.jpg",
-    "/public/images/flower.jpg",
-    "/public/images/woodpecker.jpg",
+    "/images/birdhouse.jpg",
+    "/images/flower.jpg",
+    "/images/woodpecker.jpg",
+    "/images/snow.jpg",
   ];
   const randomElement = images[Math.floor(Math.random() * images.length)];
 
