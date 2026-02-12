@@ -11,10 +11,14 @@ a {
 
 h1 {
   font-size: 3rem;
+  font-family: "Nunito";
+  font-weight: 700;
 }
 
 h2 {
+  font-family: "Nunito";
   font-size: 2rem;
+  font-weight: 700;
 }
 
 @font-face {
@@ -34,6 +38,18 @@ h2 {
     format("truetype");
 }
 
-@theme {
-  --color-blue: #397ff3;
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 200 1000;
+  font-display: swap;
+  src: url("/fonts/Nunito-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Nunito";
+  font-style: italic;
+  font-weight: 200 1000;
+  font-display: swap;
+  src: url("/fonts/Nunito-Italic-VariableFont_wght.ttf") format("truetype");
 }
