@@ -5,6 +5,10 @@
   border-color: #cdcdcd;
 }
 
+a {
+  color: var(--color-blue);
+}
+
 h1 {
   font-size: 3rem;
 }
