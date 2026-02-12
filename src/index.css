@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+* {
+  font-family: "Open Sans";
+  border-color: #999999;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 200 700;
+  font-display: swap;
+  src: url("/fonts/OpenSans-VariableFont_wdth,wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 200 700;
+  font-display: swap;
+  src: url("/fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf")
+    format("truetype");
+}
+
+@theme {
+  --color-blue: #397ff3;
+}
