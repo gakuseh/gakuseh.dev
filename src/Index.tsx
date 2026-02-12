@@ -11,7 +11,7 @@ function Item({
 }) {
   return (
     <>
-      <a href={link} className="text-black!">
+      <a href={link} className="text-black! dark:text-white!">
         <div className="group border-1 p-2 rounded-lg my-3">
           <h2>{title}</h2>
           <Divider className="md:group-hover:w-full! md:w-[0px]! md:duration-300 lg:group-hover:w-full! lg:w-[0px]! lg:duration-300" />
@@ -32,7 +32,6 @@ function Item({
 
 function Index() {
   const images = [
-    "/images/birdhouse.jpg",
     "/images/flower.jpg",
     "/images/woodpecker.jpg",
     "/images/snow.jpg",

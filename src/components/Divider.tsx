@@ -5,7 +5,7 @@ export default function Divider({
   return (
     <>
       <div
-        className={`rounded-full bg-blue w-full h-[6px] ${className || ""}`}
+        className={`rounded-full bg-blue! w-full h-[6px] ${className || ""}`}
         {...props}
       ></div>
     </>

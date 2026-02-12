@@ -1,8 +1,25 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark *));
+
+@theme {
+  --font-color: #000000;
+  --background-color: #ffffff;
+  --border-color: #cecece;
+  --color-blue: #397ff3;
+}
+
+.dark {
+  --font-color: #ffffff !important;
+  --background-color: #141820 !important;
+  --border-color: #666666 !important;
+}
+
 * {
   font-family: "Open Sans";
-  border-color: #cdcdcd;
+  background-color: var(--background-color);
+  color: var(--font-color);
+  border-color: var(--border-color);
 }
 
 a {
