@@ -56,7 +56,7 @@ function Index() {
           <p>Welcome to my website!</p>
           <div>
             <Item title="Github" link="https://github.com/gakuseh/"></Item>
-            <Item title="yonpun!" link="https://github.com/gakuseh/yonpun">
+            <Item title="Yonpun" link="https://github.com/gakuseh/yonpun">
               Free and gratis automatic timeblocking.
             </Item>
             <Item title="Photography" link="https://flickr.com/photos/gakuseh/">
